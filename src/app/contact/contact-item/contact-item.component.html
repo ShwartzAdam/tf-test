@@ -1,0 +1,28 @@
+<div class="contact">
+  <div class='section-left'>
+      <span class="contact-image">
+          <img src="{{contact.img}}" class="round-image">
+      </span>
+      <span class="contact-role">
+            {{contact.role}}
+      </span>
+  </div>
+  <div class='section-middle'>
+      <span class="contact-name">
+          {{contact.name}}
+      </span>
+      <span class="contact-address-cord">
+          <i class="pi pi-map-marker"></i>{{contact.address[0]}}
+      </span>
+      <span class="contact-address-full">
+          {{contact.address[1]}}<br>
+          P:{{contact.phone}}
+      </span>
+  </div>
+  <div class='section-right'>
+      <span class="contact-buttons">
+          <button pButton type="button" icon="pi pi-trash" class="ui-button-secondary" (click)="deleteContact(contact.id)" style="font-size: 0.75em"></button>
+          <button pButton type="button" icon="pi pi-pencil" class="ui-button-secondary" (click)="editContact(contact.id)"style="font-size: 0.75em"></button>
+        </span>
+  </div>
+</div>

@@ -1,0 +1,87 @@
+.contact{
+  display: flex; 
+  height: 200px;
+  min-width: 350px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact > span {
+    border: 1px solid red;
+}
+
+.contact > .section-left{
+    flex: 1;
+    margin-left:10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;;
+    
+}
+.contact > .section-left > .contact-image > img {
+    border-radius: 50%;
+    height:100%;
+}
+
+.contact > .section-left > .contact-role {
+    font-size:0.8em;
+    font-weight: bold;
+}
+
+
+.contact > .section-middle{
+    flex:2;
+    margin-left:30px;
+    margin-top:30px;
+    display:flex;
+    flex-direction: column;
+    width: 100%;;
+}
+
+.contact > .section-middle > .contact-name{
+    font-size:1.1em;
+    font-weight: bold;
+    flex: 1;
+    align-self: flex-start;
+}
+.contact > .section-middle > .contact-address-cord{
+    margin-top:10px;
+    font-weight: 300;
+    font-size:0.75em;
+    flex: 2;
+}
+.contact > .section-middle > .contact-address-full{
+    font-size:0.75em;
+    flex: 2;
+    margin-bottom:30px;
+}
+.contact > .section-right{
+    flex:1;
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;;
+}
+
+@media (min-width:768px) and (max-width:1300px){
+    .contact > .section-middle > .contact-name{
+        font-size:1.1em;
+        font-weight: bold;
+        flex: 1;
+        align-self: flex-start;
+    }
+    .contact > .section-middle > .contact-address-cord{
+        margin-top:10px;
+        font-weight: 300;
+        font-size:0.5em;
+        flex: 2;
+    }
+    .contact > .section-middle > .contact-address-full{
+        font-size:0.5em;
+        flex: 2;
+        margin-bottom:30px;
+    }
+}

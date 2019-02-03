@@ -1,0 +1,17 @@
+.contact-list-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 20px;
+    padding:20px;
+}
+
+.plus-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px){
+    .contact-list-wrapper{
+        grid-template-columns: 1fr;
+    }
+}

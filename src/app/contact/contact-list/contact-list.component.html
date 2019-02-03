@@ -1,0 +1,6 @@
+<div class="contact-list-wrapper">
+   <app-contact-item *ngFor="let contact of contacts" [contact]=contact></app-contact-item>
+   <div class="plus-button" (click)="addContact()">
+    <button pButton type="button" icon="pi pi-plus" class="ui-button-danger" style="font-size: 2em; border-radius: 50px" ></button>
+   </div>
+</div>

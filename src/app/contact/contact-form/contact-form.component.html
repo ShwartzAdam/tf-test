@@ -1,0 +1,29 @@
+<ng-template pTemplate="header"></ng-template>
+<div class="form-wrapper">
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"></span>
+            <input type="text" pInputText placeholder="Contact Name">         
+        </div>
+    </div>
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"></span>
+            <input type="text" pInputText placeholder="Role">         
+        </div>
+    </div>
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"></span>
+            <input type="text" pInputText placeholder="Address">         
+        </div>
+    </div>
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <span class="ui-inputgroup-addon"></span>
+            <input type="phone" pInputText placeholder="Phone">         
+        </div>
+    </div>
+</div>
+
+<button pButton style='float:right' label='submit' (click)="submitContact()"></button>

@@ -1,0 +1,95 @@
+{
+    "contacts" : [
+        {   
+            "id" : "1",
+            "name" :  "John Smith",
+            "role" : "Graphic designer",
+            "img" :  "assets/images-profile/johnsmith.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "2",
+            "name" :  "Alex Johantan",
+            "role" : "CEO",
+            "img" :  "assets/images-profile/alexjonathan.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "3",
+            "name" :  "Monica Smith",
+            "role" : "Marketing manager",
+            "img" :  "assets/images-profile/monicasmith.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "4",
+            "name" :  "Michael Zimber",
+            "role" : "Sales manager",
+            "img" :  "assets/images-profile/michaelzimber.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "5",
+            "name" :  "Sandra Smith",
+            "role" : "Graphic designer",
+            "img" :  "assets/images-profile/sandrasmith.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "6",
+            "name" :  "Janet Carton",
+            "role" : "Graphic designer",
+            "img" :  "assets/images-profile/janethcarton.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "7",
+            "name" :  "Sandra Smith",
+            "role" : "Graphic designer",
+            "img" :  "assets/images-profile/sandrasmith.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        },
+        {   
+            "id" : "8",
+            "name" :  "Janet Carton",
+            "role" : "Graphic designer",
+            "img" :  "assets/images-profile/janethcarton.jpg",
+            "address" : [
+                "Riviera State 32/106",
+                "795 Folsom Ave, Suite 600 San Francisco, CA 94107"
+            ],
+            "phone": "(123) 456-7890"  
+        }
+       
+    ] 
+    
+}
+  
