@@ -21,6 +21,3 @@ npm run start
 
 the forms doesnt work , the google api key exceeded my dailly request after only one request, delete does work and update correctly the contact list.
 
-peace and love.
-
-Adam Shwartz
