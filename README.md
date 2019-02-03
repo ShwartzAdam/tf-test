@@ -1,12 +1,12 @@
 # T-TF - Adam 
 
-**Clone the rep to your local meachine and open the folder with your favortie terminal , and then run :**
+**Clone the rep to your local meachine and open the folder and run  :**
 ```
 npm install 
 
 ```
 
-**After that , you need first to run the mock server**
+**After that , you need to run the mock server , so run :**
 ```
 npm run json:server
 
